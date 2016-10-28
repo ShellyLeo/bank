@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-09-18 09:54:10
+ * @version $Id$
+ */
+/*头部head  start*/
+
+/*logo  start*/
+.head{
+	width: 100%;
+	min-width: 1040px;
+	height: 80px;
+	background: #fff;
+	padding: 17px 0;
+	*border-bottom:1px solid #ccc;
+	box-shadow: 0 3px 3px #ccc;
+	z-index: 101;
+}
+.logo{
+	width: 240px;
+	float: left;
+	margin-left: 1%;
+}
+.logo a{
+	float: left;
+}
+.explain{
+	float: left;
+	height: 35px;
+	font-size: 14px;
+	color: #aeaeae;
+	margin-top: 7px;
+	border-left: 1px solid #ccc;
+	padding-left: 10px;
+	margin-left: 10px;
+	line-height: 18px;
+}
+/*logo end*/
+/*nav  start*/
+.nav{
+	float: left;
+	line-height: 46px;
+}
+.nav li{
+	float: left;
+	font-size: 16px;
+	padding: 0 17px;
+	position: relative;
+}
+.nav li div{
+	position: absolute;
+	top: 46px;
+	left: 0;
+	z-index: 100;
+	background: #fff;
+	border: 1px solid #eee;
+	border-top: none;
+}
+.teskPop{
+	display: none;
+}
+.teskPop li{
+	padding-left: 13px;
+}
+.teskPop li:hover{
+	/*background: #eee;*/
+}
+.nav a{
+	color: #1e1e1e;
+}
+.nav a:hover{
+	color: #169BD5;
+}
+/*nav  end*/
+/*工具一栏 start*/
+.tool{	
+	float: right;
+	margin-top: 8px;
+	padding-right: 1%;
+}
+.tool a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+.tool a.icon-search{
+	background-position: 0 -50px;
+}
+.tool a.icon-collect{
+	background-position: 0 -100px;
+}
+.tool a.icon-map{
+	background-position: 0 -150px;
+}
+.tool a.icon-search:hover{
+	background-position: -50px -50px;
+}
+.tool a.icon-person:hover{
+	background-position: -50px 0;
+}
+.tool a.icon-collect:hover{
+	background-position: -50px -100px;
+}
+.tool a.icon-map:hover{
+	background-position: -50px -150px;
+}
+/*工具一栏 end*/
+/*头部head  end*/
+
+/*footer  start*/
+.footer{
+	background: #fff;
+	height: 180px;
+	margin-top: 20px;
+	padding-top: 70px;
+	text-align: center;
+	line-height: 24px;
+}
+/*footer  end*/
+
+
+.content {
+    width: 100%;
+    padding:0 1%;
+    margin-top: 15px;
+}
+
+
+/*左侧浮层 start*/
+.sidebar{
+	position: fixed;
+	top:0;
+	height: 100%;
+	width: 55px;
+	color: #fff;
+	text-align: center;
+	z-index: 111;
+}
+.sideArrow{
+	height: 20px;
+	cursor: pointer;
+	background: #8F949A url(../images/iconlist.png) no-repeat 20px -250px;
+}
+.up{
+	background: #8F949A url(../images/iconlist.png) no-repeat 15px -302px;
+}
+.sideMenu{
+	height: 100%;
+	background: #8F949A;
+	z-index: 111;
+}
+
+.sidebar li{
+	display: block;
+	padding:10px 0;
+	cursor: pointer;
+	border-left: 4px solid #8F949A;
+}
+.sidebar li:hover{
+	background: #f5f5f5;
+	color: #62666B;
+	border-left: 4px solid #169bd5;
+}
+.sidebar li i{
+	display: block;
+	width: 55px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+.sidebar li b{
+	font-size: 12px;
+	margin-top: 12px;
+}
+.sideTool{
+	position: absolute;
+	bottom: 0;
+}
+.sideTool li{
+	position: relative;
+}
+.sideTool li b{
+	position: absolute;
+	top:-8px;
+	right: 5px;
+	padding:2px 5px;
+	background: #169bd5;
+}
+.sideTool li:hover b{
+	color: #fff;
+}
+/*左侧浮层 end*/
+
+/*面包屑导航 start*/
+.crumbs{
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+/*面包屑导航 end*/

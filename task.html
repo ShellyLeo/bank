@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>任务中心</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/normal.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/zTreeStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/task.css">
+</head>
+
+<body>
+    <div class="head clearfix">
+        <div class="logo clearfix">
+            <a href="index.html">
+                <img src="images/logo.png">
+            </a>
+            <div class="explain">
+                <p>软件中心</p>
+                <p>测评管理系统</p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li>
+                    <a href="task.html">任务中心</a>
+                    <div class="teskPop">
+                        <ul class="clearfix">
+                            <li><a href="javascript:;">生产任务</a></li>
+                            <li><a href="javascript:;">测试任务</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="javascript:;">个人中心</a></li>
+                <li><a href="javascript:;">监控中心</a></li>
+                <li><a href="javascript:;">报表中心</a></li>
+                <li><a href="javascript:;">参数中心</a></li>
+            </ul>
+        </div>
+        <div class="tool">
+            <a class="icon-search" href="javascript:;"></a>
+            <a class="icon-person" href="javascript:;"></a>
+            <a class="icon-collect" href="javascript:;"></a>
+            <a class="icon-map" href="javascript:;"></a>
+        </div>
+    </div>
+    <!-- 左侧浮层 start -->
+    <div class="sidebar">
+        <div class="sideArrow"></div>
+        <div class="sideMenu">
+            <ul>
+                <li><i class="iconfont">&#xe60b;</i><b>日程</b></li>
+                <li><i class="iconfont">&#xe606;</i><b>问题</b></li>
+                <li><i class="iconfont">&#xe606;</i><b>问题</b></li>
+            </ul>
+            <ul class="sideTool clearfix">
+                <li><i class="iconfont">&#xe608;</i><b>1</b></li>
+                <li><i class="iconfont">&#xe60a;</i><b>2</b></li>
+                <li><i class="iconfont">&#xe609;</i><b>3</b></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 左侧浮层 end -->
+    
+    <div class="content clearfix">
+    <div class="crumbs">
+        <a href="index.html">首页</a> &gt;
+        <a href="taskIndex.html">任务中心</a> &gt;
+        <span>生产任务</span>
+    </div>
+            <div class="aside">
+                <div class="aTitle">所有视图</div>
+                <div class="tree">
+                    <ul>
+                        <li><i></i>生产任务
+                            <ul>
+                                <li>按测试经理</li>
+                                <li>按开发部</li>
+                                <li>按测试部</li>
+                                <li>按进度</li>
+                                <li>按生产任务</li>
+                                <li>按生产任务批次</li>
+                                <li>按项目</li>
+                                <li>按需求类型</li>
+                                <li>按提交版本日期</li>
+                            </ul>
+                        </li>
+                        <li><i></i>生产任务
+                            <ul>
+                                <li>按测试经理</li>
+                                <li>按开发部</li>
+                                <li>按测试部</li>
+                                <li>按进度</li>
+                                <li>按生产任务</li>
+                                <li>按生产任务批次</li>
+                                <li>按项目</li>
+                                <li>按需求类型</li>
+                                <li>按提交版本日期</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <div class="tableBox">
+                    <table>
+                        <colgroup span="1" style="width: 4%"></colgroup>
+                        <colgroup span="1" style="width: 10%"></colgroup>
+                        <colgroup span="1" style="width: 10%"></colgroup>
+                        <colgroup span="1" style="width: 19%"></colgroup>
+                        <colgroup span="1" style="width: 8%"></colgroup>
+                        <colgroup span="1" style="width: 11%"></colgroup>
+                        <colgroup span="1" style="width: 7%;"></colgroup>
+                        <colgroup span="1" style="width: 8%;"></colgroup>
+                        <colgroup span="1" style="width: 10%;"></colgroup>
+                        <colgroup span="1" style="width: 9%;"></colgroup>
+                        <colgroup span="1" style="width: 3%;"></colgroup>
+                        <thead onselectstart="return false">
+                            <tr id="tb-header">
+                                <th>批次</th>
+                                <th>测试实施部门</th>
+                                <th>测试任务单编号</th>
+                                <th>任务名称</th>
+                                <th>测试经理</th>
+                                <th>路径</th>
+                                <th>建库数量</th>
+                                <th>是否建库</th>
+                                <th>生产任务单编号</th>
+                                <th>生产任务单类型</th>
+                                <th>合计</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="1">
+                                <td><i></i> P601</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>6</td>
+                            </tr>
+                            <tr id="11" pId="1">
+                                <td></td>
+                                <td> <i></i> 测试一部</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                            </tr>
+                            <tr id="12" pId="1">
+                                <td></td>
+                                <td> <i></i> 测试二部</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>6</td>
+                            </tr>
+                            <tr id="13" pId="12">
+                                <td></td>
+                                <td></td>
+                                <td>T-P601-CS2-0024</td>
+                                <td>开发三部-个人客户关系管理系统海外项目</td>
+                                <td>李鹏</td>
+                                <td>SIT2016\P601\功能测试</td>
+                                <td></td>
+                                <td>已建库</td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                            </tr>
+                            <tr id="14" pId="12">
+                                <td></td>
+                                <td></td>
+                                <td>T-P601-CS2-0024</td>
+                                <td>开发三部-个人客户关系管理系统海外项目</td>
+                                <td>李鹏</td>
+                                <td>SIT2016\P601\功能测试</td>
+                                <td></td>
+                                <td>已建库</td>
+                                <td></td>
+                                <td></td>
+                                <td>2</td>
+                            </tr>
+                            <tr id="15" pId="12">
+                                <td></td>
+                                <td></td>
+                                <td>T-P601-CS2-0024</td>
+                                <td>开发三部-个人客户关系管理系统海外项目</td>
+                                <td>李鹏</td>
+                                <td>SIT2016\P601\功能测试</td>
+                                <td></td>
+                                <td>已建库</td>
+                                <td></td>
+                                <td></td>
+                                <td>3</td>
+                            </tr>
+                            <tr id="2">
+                                <td><i></i> P602</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>3</td>
+                            </tr>
+                            <tr id="21" pId="2">
+                                <td></td>
+                                <td> <i></i> 测试二部</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>3</td>
+                            </tr>
+                            <tr id="211" pId="21">
+                                <td></td>
+                                <td></td>
+                                <td>T-P601-CS2-0024</td>
+                                <td>开发三部-个人客户关系管理系统海外项目</td>
+                                <td>李鹏</td>
+                                <td>SIT2016\P601\功能测试</td>
+                                <td></td>
+                                <td>已建库</td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                            </tr>
+                            <tr id="212" pId="21">
+                                <td></td>
+                                <td></td>
+                                <td>T-P601-CS2-0024</td>
+                                <td>开发三部-个人客户关系管理系统海外项目</td>
+                                <td>李鹏</td>
+                                <td>SIT2016\P601\功能测试</td>
+                                <td></td>
+                                <td>已建库</td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                            </tr>
+                            <tr id="213" pId="21">
+                                <td></td>
+                                <td></td>
+                                <td>T-P601-CS2-0024</td>
+                                <td>开发三部-个人客户关系管理系统海外项目</td>
+                                <td>李鹏</td>
+                                <td>SIT2016\P601\功能测试</td>
+                                <td></td>
+                                <td>已建库</td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <p>© 2016 测试管理系统 中国银行信息中心质量管理部</p>
+        <p>站长统计</p>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script type="text/javascript" src="js/Sortable.js"></script>
+    <script type="text/javascript" src="js/task.js"></script>
+</body>
+
+</html>

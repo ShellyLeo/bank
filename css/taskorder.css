@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors LEO
+ * @date    2016-10-17 15:35:58
+ * @version $Id$
+ */
+
+.head{
+    padding-left: 50px;
+}
+.content{
+    padding-left: 70px;
+}
+
+
+/*左侧部分 start*/
+.main{
+    width: 75%;
+    float: left;
+    background: #fff;
+    padding:10px 20px;
+    border:1px solid #D7D7D7;
+    box-shadow: 0 0 5px #ccc;
+}
+.mainTitle{
+    border-bottom: 1px solid #ccc;
+    line-height: 32px;
+    height: 37px;
+    margin-bottom: 10px;
+}
+.mainTitle h4{
+    font-size: 16px;
+    float: left;
+    border-bottom: 2px solid #36A9E1;
+    line-height: 34px;
+    margin-top: 1px;
+    padding:0 5px;
+    font-weight: bold;
+}
+.mainList{
+    float: right;
+    margin-right: 10px;
+}
+.mainList a{
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+}
+.mainList .edit{
+    background: #169BD5;
+    color: #fff;
+    margin-left: 10px;
+    font-family: 'Microsoft Yahei','Arial Negreta', 'Arial Normal', 'Arial';
+    border:none;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.history{
+    position: absolute;
+    width: 503px;
+    margin-left: 21%;
+    margin-top: 2.3%;
+    background: #fafafa;
+    display: none;
+    border:1px solid #d7d7d7;
+    line-height: 24px;
+}
+.history .hisTitle{
+    height: 32px;
+    line-height: 32px;
+    background: #169BD5;
+    color: #fff;
+    padding: 0 10px;    
+}
+.history .hisTitle h5{
+    font-size: 16px;
+}
+.history .hisTitle b{
+    float: right;
+    width: 16px;
+    height: 16px;
+    background: url(../images/close.png) no-repeat center;
+    margin-top: -24px;
+    cursor: pointer;
+}
+.history table{
+    width: 500px;
+}
+.history th,.history td{
+    padding: 2px 5px;
+}
+.history th{
+    text-align: right;
+}
+.operate{
+    background: #fff;
+}
+.operate caption{
+    font-weight: bold;
+    border-top: 1px dotted #d7d7d7;
+    background: #fff;
+    line-height: 3;
+    padding-left: 10px;
+}
+.operate thead{
+    background: #eee;
+}
+.operate th,.operate td{
+    text-align: center;
+}
+.operate tr:hover{
+    background: #eee;
+}
+
+.mainTitle b{
+    float: right;
+}
+.mainCon table{
+    width: 100%;
+    text-align: right;
+}
+.mainCon table i{
+    margin-right: 5px;
+    color: #169BD5;
+    display: none;
+    font-style: normal;
+    vertical-align: middle;
+}
+.mainCon td{
+    padding: 5px 2% 5px 0;
+}
+.mainCon input{
+    width: 100%;
+    border:none;
+}
+.mainCon h5{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    cursor: pointer;
+}
+.mainCon h5 i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../images/arrDown.png") no-repeat center;
+    background-size: 14px;
+    vertical-align: middle;
+    margin: -2px 4px 0 0;
+}
+.mainCon h5 i.iUp{
+    background: url("../images/arrUp.png") no-repeat center;
+    background-size: 14px;
+}
+.baseLine{
+    /*border:1px solid #d7d7d7;*/
+}
+.baseTitle{
+    background: #eee;
+    border:1px solid #d7d7d7;
+    border-bottom: none;
+}
+.baseTitle li,.listTitle li{
+    padding:3px;
+    float: left;   
+    text-align: center; 
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+.baseTitle li:nth-child(1),.listTitle li:nth-child(1){
+    width: 15%;
+}
+.baseTitle li:nth-child(2),.listTitle li:nth-child(2){
+    width: 20%;
+}
+.baseTitle li:nth-child(3),.listTitle li:nth-child(3){
+    width: 20%;
+}
+.baseTitle li:nth-child(4),.listTitle li:nth-child(4){
+    width: 25%;
+}
+.baseTitle li:nth-child(5),.listTitle li:nth-child(5){
+    width: 20%;
+    border-right: none;
+}
+.baseLists{
+    background: #fff;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+}
+.baseLists>li{
+    /*border:1px solid #d7d7d7;*/
+}
+.baseLists>li.liCheck{
+    border:1px solid #169bd5;
+}
+.listTitle li{
+    background: #fff;
+    /*border-bottom: none;*/
+}
+.liMore{
+    padding-top: 10px;
+    display: none;
+}
+.liMore h5{
+    background: #eee;
+    padding-left: 10px;
+}
+.liMore th{
+    text-align: right;
+    padding-right: 5px;
+    background: #f7f7f7;
+    border:1px solid #eee;
+    width: 20%;
+}
+
+.liMore td{
+    text-align: left;
+    border:1px solid #eee;
+    width: 30%;
+    padding-left: 5px;
+}
+.liMore th:first-child{
+    border-left:none;
+}
+.liMore td:last-child{
+    border-right:none;
+}
+
+/*分页 start*/
+.page{
+    margin-top: 10px;
+}
+/*分页 end*/
+/*左侧部分 end*/
+
+/*右侧部分 start*/
+.aside{
+    width: 24%;
+    float: right;
+    /*background: #fff;*/
+    /*padding:20px 10px;*/
+}
+.asideBox{
+    margin-bottom: 20px;
+    background: #fff;
+    padding:10px;
+    border:1px solid #D7D7D7;
+    box-shadow: 0 0 5px #ccc;
+}
+.asideBox li{
+    line-height: 2;
+}
+/*右侧部分 end*/
+
+
+
+/*taskindex页面 start*/
+.taskindex{
+    padding: 0 6%;
+}
+.taskindex li{
+    float: left;
+    width: 25%;
+    height: 220px;
+    text-align: center;
+    background: #fff;
+    margin: 0 4% 20px;
+    border-radius: 6px;
+}
+.taskindex li:hover{
+    box-shadow: 0 0 8px #ccc;
+}
+.taskindex li a{
+    display: block;
+}
+.taskindex li i{
+    display: inline-block;
+    width: 100%;
+    font-size: 100px;
+    padding: 3% 0;
+}
+.taskindex li span{
+    font-size: 20px;
+}
+.footer{
+    margin: 0;
+}
+/*taskindex页面 end*/

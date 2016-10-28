@@ -1,0 +1,150 @@
+/* CSS Document */
+
+/**
+ * @name    :HTML标签重定义
+ * @author  :BUQIAN
+ * @version :1.0
+ * @type    :公共规则
+ * @explain :无
+ */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, form, fieldset, input, textarea, p, blockquote, td ,i{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size:12px;
+    font-weight:normal;
+}
+ul , ol {
+    list-style:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset, img {
+    border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style:normal;
+    font-weight:normal;
+}
+caption, th {
+    text-align:left;
+}
+q:before, q:after {
+    content:''
+}
+abbr, acronym {
+    border:0;
+}
+img{
+    border:0;
+}
+a {
+    text-decoration:none;
+    cursor:pointer;
+    outline: none;
+    color: #333;
+}
+a:hover {
+    text-decoration:none;
+    color: #169BD5;
+}
+b{
+    font-weight: normal;
+}
+.clearfix:after{content:'';display:block;height:0;clear:both;visibility:hidden}
+.zoom{zoom:1}
+/* 须改写样式开始 */
+body {
+    font-family: 'Microsoft Yahei','Arial Negreta', 'Arial Normal', 'Arial';
+    font-size:14px;
+    color: #333;
+    min-width: 1000px;
+    background: #fafafa;
+}
+input,select{
+    font-family: 'Microsoft Yahei','Arial Negreta', 'Arial Normal', 'Arial';
+    font-size:12px;
+    color: #666;
+    padding:0;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+input{
+    padding-left: 3px;
+}
+
+
+/* 须改写样式结束*/
+
+/**
+ * @name    :常用原子类
+ * @author  :张斌
+ * @version :1.0
+ * @type    :公共规则
+ * @explain :无
+ */
+/*字体排版*/
+/* .f1{font-size:1px;}
+.fb{font-weight:bold;}
+.fn{font-weight:normal;}
+.lh1{line-height:1%}
+.lh150{line-height:150%}
+.lh180{line-height:180%}
+.lh200{line-height:200%}
+.f14{font-size:14px}
+.ls{letter-spacing:5px;} */
+
+/*定位*/
+/* .tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.bc{margin-left:auto;margin-right:auto;}
+.fl{float:left;display:inline;}display:inline;用于解决IE6下浮动双外边距问题
+.fr{float:right;display:inline;}同上
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;} */
+/*如果一个块级对象内部包含浮动对象，应该给该块级对象使用clearfix*/
+
+/* .pr{position:relative;}
+.pa{position:absolute;}
+.abs-right{position:absolute;right:0;}
+
+.hidden{visibility:hidden;}
+.none{display:none;}
+
+长度高度
+.w10{width:10px;}
+.w{width:100%}
+.h{height:100%}
+.h10{height:10px;}
+.h15{height:15px;}
+.h20{height:20px;}
+
+边距
+.m5{margin:5px;}
+.m10{margin:10px;}
+.pt5{padding-top:5px;}
+.p10{padding:10px;}
+.pdb0{padding-bottom:0;}
+.pdb5{padding-bottom:5px;}
+.mr10{margin-right:10px;}
+.ml10{margin-left:10px;}
+.mt5{margin-top:5px;} */
+
+/**
+ * @name    :公共css
+ * @author  :BUQIAN
+ * @type    :公共样式
+ */
+/*图片精灵开始*/
+a[class^="icon"]{
+    display: inline-block;
+	background-image: url(../images/iconlist.png);
+	background-repeat: no-repeat;
+}
+/*图片精灵结束*/

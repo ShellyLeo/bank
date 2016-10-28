@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors LEO
+ * @date    2016-10-13 09:45:27
+ * @version $Id$
+ */
+body{
+    background: #fff;
+}
+.head{
+    padding-left: 50px;
+}
+.content{
+    padding-left: 70px;
+}
+/*左侧浮层 start*/
+.sidebar{
+    position: fixed;
+    top:0;
+    height: 100%;
+    width: 55px;
+    color: #fff;
+    text-align: center;
+    z-index: 111;
+}
+.sideArrow{
+    height: 20px;
+    cursor: pointer;
+    background: #8F949A url(../images/iconlist.png) no-repeat 20px -250px;
+}
+.sideMenu{
+    height: 100%;
+    background: #8F949A;
+    z-index: 111;
+}
+.sideArrow.up{
+    background: #8F949A url(../images/iconlist.png) no-repeat 15px -302px;
+}
+.sidebar li{
+    display: block;
+    padding:10px 0;
+    cursor: pointer;
+    border-left: 4px solid #8F949A;
+}
+.sidebar li:hover{
+    background: #f5f5f5;
+    color: #62666B;
+    border-left: 4px solid #169bd5;
+}
+.sidebar li i{
+    display: block;
+    width: 55px;
+    margin: 0 auto;
+    font-size: 24px;
+}
+.sidebar li b{
+    font-size: 12px;
+    margin-top: 12px;
+}
+.sideTool{
+    position: absolute;
+    bottom: 0;
+}
+.sideTool li{
+    position: relative;
+}
+.sideTool li b{
+    position: absolute;
+    top:-8px;
+    right: 5px;
+    padding:2px 5px;
+    background: #169bd5;
+}
+.sideTool li:hover b{
+    color: #fff;
+}
+/*左侧浮层 end*/
+
+
+/*右侧部分 start*/
+.aside{
+    width: 29%;
+    float: right;
+}
+.asideBox{
+    background: #fff;
+    border:1px solid #d7d7d7;
+    box-shadow: 0 0 5px #eee;
+    margin-bottom: 10px;
+}
+.aTitle{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d7d7d7;
+    border-left: 8px solid #169bd5;
+    padding:0 10px;
+}
+.notice .aTitle{
+    border-left-color: #FF5E52;
+}
+.update .aTitle{
+    border-left-color: #9CA0C0;
+}
+.aTitle h4 {
+    font-size: 16px;
+}
+.aTitle a.icon-more {
+    float: right;
+    padding-right: 20px;
+    margin-top: -40px;
+    background-position: 32px -188px;
+}
+.aTitle a.icon-more:hover{
+    background-position: -17px -188px;
+}
+.aCont{
+    padding:10px;
+}
+.aCont li{
+    margin-bottom: 10px;
+}
+.aCont a{
+    display: inline-block;
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.aCont b{
+    float: right;
+    color: #aeaeae;
+}
+/*右侧部分 end*/
+
+
+/*日历部分  start*/
+.main{
+    width: 70%;
+    float: left;
+    height: 400px;
+    /*border: 1px solid #d7d7d7;*/
+}
+.main .mainTitle{
+    height: 40px;
+    line-height: 40px;
+    background: #36A9E1;
+    font-size: 16px;
+    color: #fff;
+}
+.main .mainTitle li{
+    float: left;
+    margin: 0 5%;
+}
+.main .mainTitle a{
+    color: #fff;
+}
+.titleTab{
+    width: 30%;
+    height: 40px;
+    padding-left: 2%;
+    float: left;
+}
+.dateTab{
+    /*background: brown;*/
+    width: 50%;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+.dateTab a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.dateTab a:first-child{
+    background: url("../images/prev.png") no-repeat center;
+}
+.dateTab a:last-child{
+    background: url("../images/next.png") no-repeat center;
+}
+.refresh{
+    width: 20%;
+    height: 40px;
+    float: right;
+    text-align: right;
+}
+.refresh a:last-child{
+    margin: 0 5%;
+}
+/*日历部分  end*/
+
+/*日历列表部分  start*/
+
+
+.mainCon{
+    margin-top: 10px;
+    border:1px solid #d7d7d7;
+}
+.calendarList .conHead{
+    height: 34px;
+    line-height: 34px;
+    background: #e1e1e1;
+    padding-left: 3%;
+}
+.calendarList .conHead input{
+    vertical-align: middle;
+    width: 14px;
+    margin-top: -2px;
+    margin-left: 8px;
+    background: #fff;
+}
+.calendarList .mainCon>ul>li{
+    padding: 10px 2%;
+    border-bottom: 1px solid #d7d7d7;
+    background: #fff;
+}
+.calendarList .mainCon>ul>li:nth-child(even){
+    background: #F8F8F8;
+}
+.calendarList .mainCon>ul>li:last-child{
+    border: none;
+}
+.calendarList .liLeft{
+    width: 25%;
+    float: left;
+}
+.calendarList .liRight{
+    width: 75%;
+    float: right;
+}
+.calendarList .liRight h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.calendarList .liRight li{
+    margin-bottom: 10px;
+}
+/*日历列表部分  end*/
+
+
+/*周历 start*/
+.calendarWeek .mainCon>ul>li{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 14.2857%;
+    border-right: 1px solid #d7d7d7;
+    font-size: 12px;
+}
+.calendarWeek .mainCon>ul>li:last-child{
+    border:none;
+}
+.calendarWeek .mainCon>ul>li h5{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #d7d7d7;
+}
+.calendarWeek .mainCon>ul>li:first-child h5,
+.calendarWeek .mainCon>ul>li:last-child h5{
+    color:#E8153B;
+}
+.calendarWeek .mainCon>ul>li ul{
+    padding:8px 1%;
+}
+.calendarWeek .mainCon>ul>li li{
+    border:1px solid #00C8AB;
+    background: #F0FFFD;
+    border-radius: 5px;
+    padding:3px 0;
+    margin-bottom: 5px;
+    word-break:break-all;
+    text-align: left;
+    height: 100%;
+}
+.calendarWeek .mainCon>ul>li p{
+    padding:5px 2%;
+}
+.calendarWeek .mainCon>ul>li span{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+.calendarWeek .mainCon>ul>li span:nth-child(2){
+    width: 20%;
+}
+.calendarWeek .mainCon>ul>li p.today span:first-child{
+    background: #36A9E1;
+    border-radius: 3px;
+    color: #fff;
+}
+.calendarWeek .mainCon>ul>li p.holiday{
+    color: #50C755;
+}
+.calendarWeek .mainCon>ul>li p.holiday span:first-child{
+    background: #50C755;
+    border-radius: 3px;
+    color: #fff;
+}
+/*周历 end*/

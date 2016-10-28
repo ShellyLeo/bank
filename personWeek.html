@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心--日历列表</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/normal.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/person.css">
+    <link rel="stylesheet" href="css/easyui.css">
+</head>
+
+<body>
+    <div class="head clearfix">
+        <div class="logo clearfix">
+            <a href="index.html">
+                <img src="images/logo.png">
+            </a>
+            <div class="explain">
+                <p>软件中心</p>
+                <p>测评管理系统</p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li>
+                    <a href="task.html">任务中心</a>
+                    <div class="teskPop">
+                        <ul class="clearfix">
+                            <li><a href="javascript:;">生产任务</a></li>
+                            <li><a href="javascript:;">测试任务</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="javascript:;">个人中心</a></li>
+                <li><a href="javascript:;">监控中心</a></li>
+                <li><a href="javascript:;">报表中心</a></li>
+                <li><a href="javascript:;">参数中心</a></li>
+            </ul>
+        </div>
+        <div class="tool">
+            <a class="icon-search" href="javascript:;"></a>
+            <a class="icon-person" href="javascript:;"></a>
+            <a class="icon-collect" href="javascript:;"></a>
+            <a class="icon-map" href="javascript:;"></a>
+        </div>
+    </div>
+    <!-- 左侧浮层 start -->
+    <div class="sidebar">
+        <div class="sideArrow"></div>
+        <div class="sideMenu">
+            <ul>
+                <li><i class="iconfont">&#xe60b;</i><b>日程</b></li>
+                <li><i class="iconfont">&#xe606;</i><b>问题</b></li>
+                <li><i class="iconfont">&#xe606;</i><b>问题</b></li>
+            </ul>
+            <ul class="sideTool clearfix">
+                <li><i class="iconfont">&#xe608;</i><b>1</b></li>
+                <li><i class="iconfont">&#xe60a;</i><b>2</b></li>
+                <li><i class="iconfont">&#xe609;</i><b>3</b></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 左侧浮层 end -->
+    <div class="content clearfix">
+        <div class="main calendarWeek">
+            <div class="mainTitle">
+                <ul class="titleTab">
+                    <li><a href="javascript:;">月历</a></li>
+                    <li><a href="javascript:;">周历</a></li>
+                    <li><a href="javascript:;">列表</a></li>
+                </ul>
+                <div class="dateTab">
+                    <a class="prevMonth" href="javascript:;"></a>
+                    <span><b class="year">2016</b>年 第<b class="week">29</b>周 <b class="month">10</b>月</span>
+                    <a class="nextMonth" href="javascript:;"></a>
+                </div>
+                <div class="refresh">
+                    <a href="javascript:;">回到今天</a>
+                    <a href="javascript:;">刷新</a>
+                </div>
+            </div>
+            <div class="mainCon clearfix">
+                <ul>
+                    <li>
+                        <h5>日</h5>
+                        <p><span></span><span>25</span><span>廿五</span></p>
+                        <ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>一</h5>
+                        <p><span></span><span>26</span><span>廿六</span></p>
+                        <ul>
+                            <li>提交1个方案评审</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>二</h5>
+                        <p><span></span><span>27</span><span>廿七</span></p>
+                        <ul>
+                            <li>提交1个方案评审 测试任务编号：...</li>
+                            <li>提交1个方案评审 测试任务编号：...</li>
+                            <li>提交2个问题单 编号：问题单1链接,问题单2链接，er 2342344dandnaadnadfasdf</li>
+                            <li>提交2个问题单 编号：问题单1链接,问题单2链接，er 2342344dandnaadnadfasdf提交2个问题单 编号：问题单1链接,问题单2链接，er 2342344dandnaadnadfasdf</li>
+                            <li>提交1个方案评审 测试任务编号：...</li>
+                            <li>提交2个问题单 编号：问题单1链接,问题单2链接，er 2342344dandnaadnadfasdf</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>三</h5>
+                        <p><span></span><span>28</span><span>廿八</span></p>
+                    </li>
+                    <li>
+                        <h5>四</h5>
+                        <p class="today"><span>今天</span><span>29</span><span>廿九</span></p>
+                    </li>
+                    <li>
+                        <h5>五</h5>
+                        <p><span></span><span>30</span><span>三十</span></p>
+                    </li>
+                    <li>
+                        <h5>六</h5>
+                        <p class="holiday"><span>假</span><span>1</span><span>国庆节</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="asideBox notice">
+                <div class="aTitle">
+                    <h4>公告</h4>
+                    <a class="icon-more" href="javascript:;">更多</a>
+                </div>
+                <div class="aCont">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxxP502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="asideBox update">
+                <div class="aTitle">
+                    <h4>最新更新</h4>
+                    <a class="icon-more" href="javascript:;">更多</a>
+                </div>
+                <div class="aCont">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxxP502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">P502批次统计数据xxx</a><b>2016-09-18</b>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2016 测试管理系统 中国银行信息中心质量管理部</p>
+        <p>站长统计</p>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/person.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>任务单</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/normal.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/taskorder.css">
+</head>
+
+<body>
+    <div class="head clearfix">
+        <div class="logo clearfix">
+            <a href="index.html">
+                <img src="images/logo.png">
+            </a>
+            <div class="explain">
+                <p>软件中心</p>
+                <p>测评管理系统</p>
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li>
+                    <a href="task.html">任务中心</a>
+                    <div class="teskPop">
+                        <ul class="clearfix">
+                            <li><a href="javascript:;">生产任务</a></li>
+                            <li><a href="javascript:;">测试任务</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="javascript:;">个人中心</a></li>
+                <li><a href="javascript:;">监控中心</a></li>
+                <li><a href="javascript:;">报表中心</a></li>
+                <li><a href="javascript:;">参数中心</a></li>
+            </ul>
+        </div>
+        <div class="tool">
+            <a class="icon-search" href="javascript:;"></a>
+            <a class="icon-person" href="javascript:;"></a>
+            <a class="icon-collect" href="javascript:;"></a>
+            <a class="icon-map" href="javascript:;"></a>
+        </div>
+    </div>
+    <!-- 左侧浮层 start -->
+    <div class="sidebar">
+        <div class="sideArrow"></div>
+        <div class="sideMenu">
+            <ul>
+                <li><i class="iconfont">&#xe60b;</i><b>日程</b></li>
+                <li><i class="iconfont">&#xe606;</i><b>问题</b></li>
+                <li><i class="iconfont">&#xe606;</i><b>问题</b></li>
+            </ul>
+            <ul class="sideTool clearfix">
+                <li><i class="iconfont">&#xe608;</i><b>1</b></li>
+                <li><i class="iconfont">&#xe60a;</i><b>2</b></li>
+                <li><i class="iconfont">&#xe609;</i><b>3</b></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 左侧浮层 end -->
+    <div class="content clearfix">
+    <div class="crumbs">
+        <a href="index.html">首页</a> &gt;
+        <a href="taskIndex.html">任务中心</a> &gt;
+        <a href="task.html">生产任务</a> &gt;
+        <span>任务单</span>
+    </div>
+        <div class="main">
+            <div class="mainTitle clearfix">
+                <h4>(P601)生产任务单</h4>
+                <!--<b>返回</b>-->
+                <div class="mainList">
+                    <a href="javascript:;">历史记录</a>
+                    <button class="edit">编辑</button>
+                </div>
+            </div>
+            <div class="history noselect">
+                <div class="hisTitle">
+                    <h5>历史记录</h5>
+                    <b></b>
+                </div>
+                <table>
+                    <tr>
+                        <th>生产任务单编号：</th>
+                        <td colspan="3">dgwiaefgewfefewafa</td>
+                    </tr>
+                    <tr>
+                        <th>创建人：</th>
+                        <td>农时</td>
+                        <th>创建时间：</th>
+                        <td>2016/6/13 12:09:26</td>
+                    </tr>
+                    <tr>
+                        <th>最后修改人：</th>
+                        <td>和景</td>
+                        <th>最后修改时间：</th>
+                        <td>2016/10/18 17:32:01</td>
+                    </tr>
+                </table>
+                <table class="operate">
+                    <caption>操作记录</caption>
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>修改人</th>
+                            <th>修改时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>和景</td>
+                            <td>2016/10/18 17:32:01</td>
+                            <td>修改生产任务</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>农时</td>
+                            <td>2016/06/13 12:09:26</td>
+                            <td>修改生产任务</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mainCon">
+                <h5><i></i>基础信息</h5>
+                <table>
+                    <colgroup span="1" style="width: 20%"></colgroup>
+                    <colgroup span="1" style="width: 30%"></colgroup>
+                    <colgroup span="1" style="width: 20%"></colgroup>
+                    <colgroup span="1" style="width: 30%"></colgroup>
+                    <tr>
+                        <td><i>*</i>任务下达日期</td>
+                        <td>
+                            <input type="text" value="2015-11-09">
+                        </td>
+                        <td><i>*</i>更新日期</td>
+                        <td>
+                            <input type="text" value="2016-10-17">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>生产任务编号</td>
+                        <td>
+                            <input type="text" value="1223333">
+                        </td>
+                        <td><i>*</i>任务状态</td>
+                        <td>
+                            <input type="text" value="zhuangtai">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>生产任务名称</td>
+                        <td>
+                            <input type="text" value="Pwejiwee">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>任务牵头项目/团队名称</td>
+                        <td>
+                            <input type="text" value="测试一部">
+                        </td>
+                        <td><i>*</i>批次</td>
+                        <td>
+                            <input type="text" value="P601">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>项目编码</td>
+                        <td>
+                            <input type="text" value="sdsdf">
+                        </td>
+                        <td><i>*</i>需求程度</td>
+                        <td>
+                            <input type="text" value="需求程度">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>任务类型</td>
+                        <td>
+                            <input type="text" value="任务类型">
+                        </td>
+                        <td><i>*</i>紧急程度</td>
+                        <td>
+                            <input type="text" value="紧急程度">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>牵头实施部门</td>
+                        <td>
+                            <input type="text" value="开发四部">
+                        </td>
+                        <td><i>*</i>相关实施部门</td>
+                        <td>
+                            <input type="text" value="测试实施部门">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>牵头产品</td>
+                        <td>
+                            <input type="text" value="牵头产品">
+                        </td>
+                        <td><i>*</i>产品名称</td>
+                        <td>
+                            <input type="text" value="产品名称">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>提交功能测试版本时间</td>
+                        <td>
+                            <input type="text" value="提交功能测试版本时间">
+                        </td>
+                        <td><i>*</i>排期议定完成功能测试日期</td>
+                        <td>
+                            <input type="text" value="排期议定完成功能测试日期">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>排期议定最晚提交正式版本日期</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td><i>*</i>排期议定投产日期</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>总任务编号</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td><i>*</i>被追平任务编号</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <tr>
+                            <td><i>*</i>工作方式</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td><i>*</i>引起追平的源任务编号</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                </table>
+                <h5><i></i>系统维护信息</h5>
+                <table>
+                    <colgroup span="1" style="width: 20%"></colgroup>
+                    <colgroup span="1" style="width: 30%"></colgroup>
+                    <colgroup span="1" style="width: 20%"></colgroup>
+                    <colgroup span="1" style="width: 30%"></colgroup>
+                    <tr>
+                        <td><i>*</i>生产任务单状态</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td><i>*</i>牵头测试部门</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>测试任务编号</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td><i>*</i>创建形式</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>*</i>拆分合并标识</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+                <h5><i></i>调度维护信息</h5>
+                <table>
+                    <colgroup span="1" style="width: 20%"></colgroup>
+                    <colgroup span="1" style="width: 30%"></colgroup>
+                    <colgroup span="1" style="width: 20%"></colgroup>
+                    <colgroup span="1" style="width: 30%"></colgroup>
+                    <tr>
+                        <td><i>*</i>需要分配测试任务</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td><i>*</i>不需要分配测试任务原因</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+                <h5><i></i>相关基线信息</h5>
+                <div class="baseLine">
+                    <ul class="baseTitle clearfix">
+                        <li>批次</li>
+                        <li>团队所属开发部</li>
+                        <li>团队名称</li>
+                        <li>产品</li>
+                        <li>判断</li>
+                    </ul>
+                    <ul class="baseLists">
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="listTitle clearfix">
+                                <li>P601</li>
+                                <li>开发一部</li>
+                                <li>开发一部部门</li>
+                                <li>STMS测试管理系统</li>
+                                <li>判断是否</li>
+                            </ul>
+                            <div class="liMore">
+                                <h5>更多信息</h5>
+                                <table>
+                                    <tr>
+                                        <th>任务下达时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>更新日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                    <tr>
+                                        <th>生产任务编号</th>
+                                        <td>WHIUhufoewnfuiwe</td>
+                                        <th>批次</th>
+                                        <td>P702</td>
+                                    </tr>
+                                    <tr>
+                                        <th>产品名称</th>
+                                        <td>产品名称</td>
+                                        <th>产品缩写</th>
+                                        <td>产品缩写</td>
+                                    </tr>
+                                    <tr>
+                                        <th>是否是牵头</th>
+                                        <td>是</td>
+                                        <th>产品归属开发部</th>
+                                        <td>开发四部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>项目编码</th>
+                                        <td>项目编码</td>
+                                        <th>任务状态</th>
+                                        <td>正在开发</td>
+                                    </tr>
+                                    <tr>
+                                        <th>任务类型</th>
+                                        <td>类型</td>
+                                        <th>任务牵头项目/团队所属开发部</th>
+                                        <td>开发部</td>
+                                    </tr>
+                                    <tr>
+                                        <th>提交功能测试版本时间</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                        <th>排期议定完成功能测试日期</th>
+                                        <td>2016/10/18 10:32:26</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- 分页 start -->
+                    <div class="page">
+                        <span>每页记录数</span>
+                        <select>
+                            <option>10</option>
+                            <option>20</option>
+                            <option>30</option>
+                            <option>50</option>
+                        </select>
+                        |
+                        <span>首页</span>
+                        <span>上一页</span>
+                        |
+                        <span>当前</span>
+                        <input type="text" name="">
+                        <button>转到</button>
+                        |
+                        共六页
+                        |
+                        <span>下一页</span>
+                        <span>末页</span>
+                    </div>
+                    <!-- 分页 end -->
+                </div>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="asideBox">
+                <div class="mainTitle">
+                    <h4>测试数据</h4>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">案例单</a></li>
+                    <li><a href="javascript:;">问题单</a></li>
+                    <li><a href="javascript:;">记录单</a></li>
+                </ul>
+            </div>
+            <div class="asideBox">
+                <div class="mainTitle">
+                    <h4>相关文档</h4>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">测试方案评审</a></li>
+                    <li><a href="javascript:;">测试案例评审</a></li>
+                    <li><a href="javascript:;">测试报告评审</a></li>
+                    <li><a href="javascript:;">准入检查单</a></li>
+                    <li><a href="javascript:;">测试大纲</a></li>
+                    <li><a href="javascript:;">测试计划</a></li>
+                    <li><a href="javascript:;">质量检查</a></li>
+                    <li><a href="javascript:;">走查记录</a></li>
+                </ul>
+            </div>
+            <div class="asideBox">
+                <div class="mainTitle">
+                    <h4>数据统计</h4>
+                </div>
+                <ul>
+                    <li><a href="javascript:;">任务单1</a></li>
+                    <li><a href="javascript:;">任务单2</a></li>
+                    <li><a href="javascript:;">任务单3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2016 测试管理系统 中国银行信息中心质量管理部</p>
+        <p>站长统计</p>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script type="text/javascript" src="js/taskorder.js"></script>
+</body>
+
+</html>
